@@ -23,6 +23,21 @@ const routes = [
     path: "/user",
     name: "User",
     component: () => import(/* webpackChunkName: "user" */ "@views/request/user.vue")
+  },
+  {
+    path: "/cssBase",
+    name: "CssBase",
+    component: () => import(/* webpackChunkName: "cssbase" */ "@views/css/CssBase.vue")
+  },
+  {
+    path: "/form",
+    name: "Form",
+    component: () => import(/* webpackChunkName: "Form" */ "@views/element-ui/form.vue")
+  },
+  {
+    path: "/table",
+    name: "Table",
+    component: () => import(/* webpackChunkName: "Table" */ "@views/element-ui/table.vue")
   }
 ];
 

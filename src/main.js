@@ -12,6 +12,10 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 Vue.use(ElementUI);
 
+// 自定义组件全局注册(高频率)
+import KsTitle from "./components/KsTitle";
+Vue.component("ks-title", KsTitle);
+
 Vue.config.productionTip = false;
 
 new Vue({

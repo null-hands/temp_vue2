@@ -63,6 +63,40 @@ export default {
               icon: ''
             }
           ]
+        },
+        {
+          id: '4',
+          title: 'CSS',
+          path: 'css',
+          icon: '',
+          children: [
+            {
+              id: '4-1',
+              title: 'cssBase',
+              path: '/cssBase',
+              icon: ''
+            }
+          ]
+        },
+        {
+          id: '5',
+          title: 'ElementUI',
+          path: 'elementui',
+          icon: '',
+          children: [
+            {
+              id: '5-1',
+              title: 'form',
+              path: '/form',
+              icon: ''
+            },
+            {
+              id: '5-2',
+              title: 'table',
+              path: '/table',
+              icon: ''
+            }
+          ]
         }
       ];
     }
