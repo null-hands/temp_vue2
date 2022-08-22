@@ -41,6 +41,7 @@ export default {
       workList: [
         { work: '天庭', code: 'wk01' },
         { work: '妖庭', code: 'wk02' },
+        { work: '地府', code: 'wk03' },
       ]
     };
   },
